@@ -11,3 +11,5 @@ for rootDir, subdirs, filenames in os.walk(dir_path):
             os.remove(os.path.join(rootDir, filename))
         except OSError:
             print("Error while deleting file")
+
+        print('Files removed successfully')
