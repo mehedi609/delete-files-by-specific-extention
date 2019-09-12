@@ -1,7 +1,9 @@
 import os
 import fnmatch
 
-dir_path = 'E:\\Web Development Tutorials\\PHP Framework\\Real Time Single Page Forum App with Pusher Laravel & vuejs'
+dir_path = 'E:\Web Development Tutorials\React'
+
+dir_path = '\\\\'.join(list(dir_path.split('\\')))
 
 # Get a list of all files in directory
 for rootDir, subdirs, filenames in os.walk(dir_path):
